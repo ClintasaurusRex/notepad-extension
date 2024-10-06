@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "A study tool for taking notes",
   "action": {
-    "default_popup": "index.html"
+    "default_popup": "popup/index.html"
   },
   "background": {
     "service_worker": "background.js"
