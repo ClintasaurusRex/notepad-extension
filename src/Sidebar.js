@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ReactDOM from "react-dom/client";
 const Sidebar = () => {
     const [note, setNote] = useState("");
     const [url, setUrl] = useState("");
@@ -34,4 +35,6 @@ const Sidebar = () => {
         React.createElement("br", null),
         React.createElement("button", { onClick: saveNote }, "Save Note")));
 };
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(React.createElement(Sidebar, null));
 export default Sidebar;

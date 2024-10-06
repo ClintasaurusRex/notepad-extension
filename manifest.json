@@ -20,7 +20,6 @@
     "storage",
     "tabs",
     "scripting",
-    "activeTab",
-    "sidepanel"
+    "activeTab"
   ]
 }

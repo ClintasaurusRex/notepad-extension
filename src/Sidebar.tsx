@@ -49,4 +49,6 @@ const Sidebar: React.FC = () => {
   );
 };
 
+const root = ReactDOM.createRoot(document.getElementById("root")!);
+root.render(<Sidebar />);
 export default Sidebar;
