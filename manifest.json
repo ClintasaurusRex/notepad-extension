@@ -9,9 +9,7 @@
   "background": {
     "service_worker": "background.js"
   },
-  "side_panel": {
-    "default_path": "popup/sidebar.html"
-  },
+
   "permissions": [
     "alarms",
     "contextMenus",

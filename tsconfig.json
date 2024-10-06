@@ -11,6 +11,6 @@
     "forceConsistentCasingInFileNames": true,
     "types": ["chrome"] // Add chrome types here
   },
-  "include": ["src/**/*", "popup/sidebar.js"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules"]
 }
