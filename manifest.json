@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "notepad-extension",
+  "version": "1.0",
+  "description": "A study tool for taking notes",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "alarms",
+    "contextMenus",
+    "notifications",
+    "search",
+    "storage",
+    "tabs",
+    "scripting",
+    "activeTab"
+  ]
+}
